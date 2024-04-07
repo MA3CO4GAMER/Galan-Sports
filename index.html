@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<hmtl lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>GALAN SPORTS</title>
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <h1>GALAN <span class="txtRojo"> SPORTS</span></h1>
+            <nav id="nav">
+                <center>
+    <a href="#inicio" button id=btnav role= "link" onclick="location= 'index.php'"> Inicio</button>
+    <a href="#registrarse"button id=btnav role= "link" onclick="location= 'registro.php'">Registrarse</button>
+    <a href="#iniciarsesion" button id=btnav role= "link" onclick="location= 'iniciosesion.php'">Iniciar sesión</button>
+    <a href="#servicios" button id=btnav role= "link" onclick=>Servicios</button>
+    <a href="#galeria" button id=btnav role= "link" onclick=>Galeria</button>
+    <a href="#equipo" button id=btnav role= "link" onclick=>¿Quienes somos?</button>
+    <a href="#contacto" button id=btnav role= "link" onclick=>Contactenos</button></center>
+            </nav>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>                
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                <h2>HAZ QUE <span class="txtRojo">OCURRA</span></h2>
+                <p>Triunfar es más facil de lo que piensas!</p>
+                <a href="#nosotros" class="btn-mas">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </a>
+            </div>
+            <div class="opciones">
+                <div class="opcion">
+                    01.FITNESS
+                </div>
+                <div class="opcion">
+                    02.CROSSFIT
+                </div>
+                <div class="opcion">
+                    03.BOXEO
+                </div>
+                <div class="opcion">
+                    04.ENDURO
+                </div>
+                <div class="opcion">
+                    05.CARDIO
+                </div>
+                <div class="opcion">
+                    06.CICLISMO 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+        <div class="fila">
+            <div class="col">
+                <img src="img/nosotros.png" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        01
+                    </div>
+                    <div class="info">
+                        <span class="frase">LA MEJOR EXPERIENCIA</span>
+                        <h2>NOSOTROS</h2>
+                    </div>
+                </div>
+                <p class="p-especial">Bienvenido a nuestra página web sobre deportes, donde encontrarás todo lo que necesitas para estar al día en el mundo del deporte.
+Encontrarás noticias de última hora sobre los deportes más populares, desde fútbol hasta baloncesto y muchos más. También ofrecemos análisis y opiniones de expertos en cada deporte para que puedas conocer mejor las estrategias y tácticas utilizadas en cada deporte.</p>
+            </div>
+        </div>
+        <hr>
+        <center><img src="img/deporte2.png" alt=""></center>
+    </section>
+    <!-- SECCION SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="contenido-seccion">
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            02
+                        </div>
+                        <div class="info">
+                            <span class="frase">LA MEJOR EXPERIENCIA</span>
+                            <h2>SERVICIOS</h2>
+                        </div>
+                    </div>
+                    <p class="p-especial">Practicar deporte regularmente ayuda a reducir el estrés, mejorar la calidad del sueño y aumenta la autoestima. También ayuda a reducir los niveles de colesterol y triglicéridos en la sangre, disminuyendo el riesgo de enfermedades cardiovasculares y mejorando el sistema inmunológico.</p><br><br>
+                </div>
+                <div class="col">
+                    <img src="img/servicio.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="info-servicios">
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-person-walking"></i>
+                        <h3><span class="txtRojo">Clases </span> de Fitness</h3>
+                        <p>Ayuda a mejorar la fuerza muscular y la resistencia fisica.</p>
+                         <hr>
+                        <p>Contribuye a reducir el riesgo de enfermedades crónicas, como la diabetes o la obesidad.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <h3><span class="txtRojo">Clases </span> de Crossfit</h3>
+                        <p>Aumenta la capacidad cardiovascular y respiratoria, mejorando la resistencia física.</p>
+                         <hr>
+                         <p>Fomenta la superación personal, al permitir establecer y alcanzar metas a corto y largo plazo.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-mitten"></i>
+                        <h3><span class="txtRojo">Clases </span> de Boxeo</h3>
+                        <p>Ayuda a quemar calorias y reducir la grasa corporal, favoreciendo la perdida de peso.</p>
+                         <hr>
+                         <p>Mejora la coordinación y el equilibrio, ya que requiere movimientos precisos y controlados.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-clock"></i>
+                        <h3><span class="txtRojo">Clases </span> de Enduro</h3>
+                        <p>Ayuda a mejorar la resistencia física, al ser una actividad de larga duración y alta intensidad.</p>
+                         <hr>
+                         <p>Fortalece las piernas y los brazos, especialmente en zonas de montaña o terrenos irregulares.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-heart-circle-bolt"></i>
+                        <h3><span class="txtRojo">Clases </span> de Cardio</h3>
+                        <p>Ayuda a mejorar la salud cardiovascular, al fortalecer el corazón y los vasos sanguíneos.</p>
+                         <hr>
+                         <p>Aumenta la resistencia física, permitiendo realizar actividades cotidianas con mayor facilidad.</p>
+                    </td>s
+                    <td>
+                        <i class="fa-solid fa-bicycle"></i>
+                        <h3><span class="txtRojo">Clases </span> de Ciclismo</h3>
+                        <p>Mejora la salud cardiovascular, al aumentar la capacidad pulmonar y fortalecer el corazón.</p>
+                         <hr>
+                         <p>Fortalece las piernas y los glúteos, permitiendo un mejor rendimiento físico en otras actividades.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <!-- SECCION GALERIA -->
+    <section class="galeria" id="galeria">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    03
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>GALERIA</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/f1.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f2.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f3.jpg" alt="">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/f4.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f5.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION EQUIPO -->
+    <section class="equipo" id="equipo">
+       
+            <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                  04
+                </div>
+                 <div class="info">
+                </div>
+
+                <br><center><h2>¿Quiénes Somos?</h2></center>
+        <p>Somos una página web dedicada a ofrecer noticias, análisis y estadísticas sobre los deportes más populares y también sobre los menos conocidos pero igualmente interesantes.</p>
+        
+        <center><h2>Misión:</h2></center>
+        <p>Nuestra misión es ser el sitio de referencia para los amantes del deporte, proporcionándoles información actualizada, análisis y estadísticas que les permitan estar al día en su deporte favorito y conocer otros deportes.</p>
+
+        <center><h2>Visión:</h2></center>
+        <p>Nuestra visión es convertirnos en la página web más completa sobre deportes, ofreciendo a nuestros usuarios una amplia variedad de contenidos y herramientas que les permitan disfrutar más del deporte y conocer a fondo el mundo deportivo.</p><br><br>
+                </div>
+            </div>
+              <center><div class="info">
+                <br><br><br><h2></h2></center>
+                </div>
+            <div class="fila">
+            
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    05
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>CONTACTO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Ingrese Email">
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Ingrese Nombre">
+                </div>
+            </div>
+            <div class="mensaje">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Ingresa el Mensaje"></textarea>
+                <button>Enviar Mensaje</button>
+            </div>
+            <div class="fila-datos">
+                </div>
+                <center><div class="col">
+                    <i class="fa-solid fa-phone"></i>
+                    300-5232307
+                </div>
+                <div class="col">
+                    <i class="fa-regular fa-clock"></i>
+                    Lunes a Sábado, 8:00h - 17:00h
+                </div></center>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="info">
+            <p>2023 - <span class="txtRojo">GALAN SPORTS</span> Todos los derechos reservados</p>
+            <div class="redes">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
